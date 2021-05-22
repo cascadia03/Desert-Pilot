@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="manager">
+      <UniqueIdentifier>{d6e3d17d-cad9-4237-8481-8b8577fe668e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager\sound_manager">
+      <UniqueIdentifier>{2164c06a-b682-4db3-8dbf-794091b2fc8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{7b971905-d1e8-4d98-b2cc-5514427b4b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager\image_manager">
+      <UniqueIdentifier>{a8580f29-2099-4808-9a9e-a2deffe27aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager\render_manager">
+      <UniqueIdentifier>{8ac4f3d8-aa04-44c8-8064-1e4e7c569ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager\object_manager">
+      <UniqueIdentifier>{4086ed73-d73c-4f58-9320-32090c95e38d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager\scene_manager">
+      <UniqueIdentifier>{18502834-28bb-406c-840e-841b971f3ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{2c5e21af-a8b9-4828-aef0-75d449b8f881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager\input_manager">
+      <UniqueIdentifier>{63e2357a-4bcb-49b9-97ed-5acf66db622e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects">
+      <UniqueIdentifier>{930f71d1-6a65-4fa4-94c3-3388418afbc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scenes">
+      <UniqueIdentifier>{bc997201-b3d2-463c-87fb-324d2a234e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scenes\stage">
+      <UniqueIdentifier>{facfe78f-ab57-4d0c-aa9b-56cc53fc3d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\player">
+      <UniqueIdentifier>{8aa3a24b-191a-4121-8d19-9e1ac8740882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\bullets">
+      <UniqueIdentifier>{9d11d2f9-e27a-423e-a124-751c5d44e493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\enemy">
+      <UniqueIdentifier>{9805ffb7-30e8-4b6b-a230-e974a7ac8f78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\enemy\enemies">
+      <UniqueIdentifier>{d6322665-146c-47bc-9467-80b69db26e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\enemy\bosses">
+      <UniqueIdentifier>{f228eb60-490a-48bc-ad7a-d856eee6faec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Desert Pilot.cpp" />
+    <ClCompile Include="sound_manager.cpp">
+      <Filter>manager\sound_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKsound.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKwavefile.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="image_manager.cpp">
+      <Filter>manager\image_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="render_manager.cpp">
+      <Filter>manager\render_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="object_manager.cpp">
+      <Filter>manager\object_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_manager.cpp">
+      <Filter>manager\scene_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="input_manager.cpp">
+      <Filter>manager\input_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="main_menu.cpp">
+      <Filter>scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="setting.cpp">
+      <Filter>scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="game_system.cpp">
+      <Filter>objects</Filter>
+    </ClCompile>
+    <ClCompile Include="stage_1.cpp">
+      <Filter>scenes\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage_2.cpp">
+      <Filter>scenes\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>objects\player</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>objects\bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="skill.cpp">
+      <Filter>objects\player</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>objects\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_1.cpp">
+      <Filter>objects\enemy\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>objects</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_2.cpp">
+      <Filter>objects\enemy\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_3.cpp">
+      <Filter>objects\enemy\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_4.cpp">
+      <Filter>objects\enemy\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>objects\player</Filter>
+    </ClCompile>
+    <ClCompile Include="rank_1.cpp">
+      <Filter>scenes\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="rank_2.cpp">
+      <Filter>scenes\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="boss_1.cpp">
+      <Filter>objects\enemy\bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="boss_2.cpp">
+      <Filter>objects\enemy\bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="boss_3.cpp">
+      <Filter>objects\enemy\bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="boss_4.cpp">
+      <Filter>objects\enemy\bosses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="singleton.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sound_manager.h">
+      <Filter>manager\sound_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKwavefile.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKsound.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="image_manager.h">
+      <Filter>manager\image_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="render_manager.h">
+      <Filter>manager\render_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="object_manager.h">
+      <Filter>manager\object_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_manager.h">
+      <Filter>manager\scene_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="input_manager.h">
+      <Filter>manager\input_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="main_menu.h">
+      <Filter>scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="setting.h">
+      <Filter>scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="game_system.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_1.h">
+      <Filter>scenes\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_2.h">
+      <Filter>scenes\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>objects\player</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>objects\bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="skill.h">
+      <Filter>objects\player</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>objects\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_1.h">
+      <Filter>objects\enemy\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_2.h">
+      <Filter>objects\enemy\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_3.h">
+      <Filter>objects\enemy\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_4.h">
+      <Filter>objects\enemy\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>objects\player</Filter>
+    </ClInclude>
+    <ClInclude Include="rank_1.h">
+      <Filter>scenes\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="rank_2.h">
+      <Filter>scenes\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="boss_1.h">
+      <Filter>objects\enemy\bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="boss_2.h">
+      <Filter>objects\enemy\bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="boss_3.h">
+      <Filter>objects\enemy\bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="boss_4.h">
+      <Filter>objects\enemy\bosses</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="Desert Pilot.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
